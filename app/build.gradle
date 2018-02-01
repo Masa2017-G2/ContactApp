@@ -37,4 +37,11 @@ dependencies {
     //ButterKnife
     compile 'com.jakewharton:butterknife:8.6.0'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.6.0'
+    //Dagger 2
+    implementation 'com.google.dagger:dagger:2.14.1'
+    annotationProcessor 'com.google.dagger:dagger-compiler:2.14.1'
+    //Gson
+    implementation 'com.google.code.gson:gson:2.8.2'
+    //OkHttp3
+    implementation 'com.squareup.okhttp3:okhttp:3.9.1'
 }

@@ -9,4 +9,5 @@ import android.support.annotation.NonNull;
 public interface ILoginPresenter {
     void actionLogin(@NonNull String email, @NonNull String password);
     void actionRegistration(@NonNull String email, @NonNull String password);
+    void onErrorDialogDismiss();
 }
